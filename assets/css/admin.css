@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+/* ----------------BASE CSS------------------ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Quicksand',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background: #fff;
+    color: #a5a5a5;
+}
+
+*::-webkit-scrollbar {
+    width: 4px;
+    background-color: #F5F5F5;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #736f6f;
+}
+*::-webkit-resizer{
+    width: 4px;
+}
+
+/* ---------------------------------------- */
+.wrapper {
+    width: 100vw;
+    margin: auto;
+}
+
+.container {
+    padding: 10px 0 5px 0;
+    background-color: #f3f3f3;
+    min-height: 300px;
+}
+
+.container .tieude {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-size: 21px;
+    text-shadow: 5px 5px 5px #ccc;
+}
+
+.error {
+    color: red;
+}
+
+.menu {
+    height: 80px;
+    background: #499cce;
+    margin-top: 2px;
+    padding: 10px;
+}
+
+.menu ul li {
+    list-style: none;
+    float: left;
+    width: 24%;
+    border-radius: 10px;
+    background: #185969;
+    text-align: center;
+    margin-left: 10px;
+    line-height: 60px;
+}
+
+.menu ul a {
+    text-decoration: none;
+    color: rgb(247, 247, 247);
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.menu ul li:hover {
+    background: rgb(241, 157, 0);
+}
+
+.menu ul li:active {
+    background: rgb(241, 157, 0);
+}
+
+footer {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #1e7ab1;
+    color: #fff;
+    font-size: 16px;
+}
